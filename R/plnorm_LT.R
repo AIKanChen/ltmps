@@ -22,6 +22,6 @@
 
 plnorm_LT = function(q,mu,sigma,u){
   if(min(q)<u){stop('The quantile is less than left truncated point')}
-  (plnorm(q,mu,sigma)-plnorm(u,mu,sigma))
+  (plnorm(q,mu,sigma)-plnorm(u,mu,sigma))/
     (1-plnorm(u,mu,sigma))
 }
