@@ -1,5 +1,5 @@
 Package: ltmps
-Title: MCP estimation for left-truncated heavy-tailed data
+Title: MPS estimation for left-truncated heavy-tailed data
 Version: 1.0.0.0000
 Authors@R: c(
     person(given = "Ning",
@@ -12,10 +12,15 @@ Authors@R: c(
            email = "chenkan618@ruc.edu.cn",
            comment = c(ORCID = "YOUR-ORCID-ID"))
            )
-Description: A estimation method that improve the applicability of Maximum Product of Spacings(MPS) in left-tructed data. Details of this method were described in Giuricich & Burnecki(2019), Modelling of left-truncated heavy-tailed data with application to catastrophe bond pricing[J]. Physica A: Statistical Mechanics and Its Applications, 2019, 525: 498-513.
+Author: Ning Ma[ning.ma@ruc.edu.cn]
+          Kan Chen[chenkan618@ruc.edu.cn]
+Description: An estimation method that improves the applicability of Maximum Product of Spacings(MPS) in left-truncated data.  
+      Details of this method were described in Giuricich & Burnecki(2019), Modelling of left-truncated heavy-tailed data with application to catastrophe bond pricing[J]. Physica A: Statistical Mechanics and Its Applications, 2019, 525: 498-513.
 License: usethis::use_mit_license(copyright_holder = NULL)
-Depends: stats, actuar, evir, pracma
+BugReports: https://github.com/ckatom/ltmps/issues
+URL: https://github.com/ckatom/ltmps
+Imports: stats, actuar, evir, pracma
 Encoding: UTF-8
-LazyData: true
+LazyData: True
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
